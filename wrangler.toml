@@ -1,0 +1,13 @@
+name = "wasldrive"
+main = "src/index.ts"
+compatibility_date = "2024-06-01"
+
+[vars]
+COMPANY_NAME = "Wasl Cloud Solutions | شركة وصل السحابية"
+APP_NAME = "WaslDrive | وصل درايف"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wasldrive-db"
+database_id = "870e88f4-226e-4d7b-aa90-7e0333a7b9ba"
+migrations_dir = "migrations"

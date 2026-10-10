@@ -1,0 +1,18 @@
+{
+  "name": "wasldrive",
+  "version": "1.0.0",
+  "description": "WaslDrive — Personal cloud file vault (Arabic+English SaaS training app)",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply wasldrive-db --local",
+    "db:migrate:remote": "wrangler d1 migrations apply wasldrive-db --remote"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^3.114.17"
+  }
+}
